@@ -55,6 +55,8 @@ img {
 
 #todolist li {
   margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
   padding: 20px;
   box-shadow: -1px -1px 5px 0px gray;
   border-bottom: 5px solid #7055d3;
@@ -64,4 +66,18 @@ img {
   float: right;
   font-size: 16px;
   cursor: pointer;
+}
+
+span{
+  cursor: pointer;
+}
+
+#reset{
+  width: 100px;
+  background-color: #7055d3;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
 }
